@@ -1,0 +1,11 @@
+# Render 部署藍圖：單一免費 Web 服務，無需安裝任何套件
+services:
+  - type: web
+    name: stardust-guild
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: node server.js
+    healthCheckPath: /healthz
+    autoDeploy: true

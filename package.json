@@ -1,0 +1,8 @@
+{
+  "name": "stardust-guild",
+  "version": "1.0.0",
+  "private": true,
+  "description": "星砂商會 — 二到四人線上對戰的資源收集桌遊",
+  "scripts": { "start": "node server.js", "test": "node sim.js 600" },
+  "engines": { "node": ">=18" }
+}
